@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="710.0" stylesheets="/Styles/cadastro.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="302.0" prefHeight="510.0" prefWidth="408.0" stylesheets="@../Styles/cadastro.css">
+         <children>
+            <TextField layoutX="56.0" layoutY="202.0" prefHeight="31.0" prefWidth="267.0" />
+            <TextField layoutX="57.0" layoutY="284.0" prefHeight="31.0" prefWidth="267.0" />
+            <Text layoutX="56.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="texto_cadastro" text="Digite seu nome" />
+            <Text layoutX="57.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="texto_cadastro" text="Digite sua senha" />
+            <Text layoutX="59.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="texto_cadastro" text="Selecione seu nome" />
+            <Button layoutX="116.0" layoutY="438.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="180.0" styleClass="button_cadastro" stylesheets="@../Styles/cadastro.css" text="Cadastrar" />
+            <ComboBox layoutX="59.0" layoutY="365.0" prefWidth="150.0" />
+            <AnchorPane prefHeight="150.0" prefWidth="408.0" styleClass="anchoPane_cadastro">
+               <children>
+                  <Text layoutX="142.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="texto_cadastro_title" text="Cadastro">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="510.0" prefWidth="310.0" styleClass="anchorPane_cadastro_left" stylesheets="@../Styles/cadastro.css" />
+   </children>
+</AnchorPane>

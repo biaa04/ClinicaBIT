@@ -1,0 +1,30 @@
+.anchorPane_cadastro_left{
+    -fx-background-color: #01A0FE;
+    -fx-
+}
+.anchoPane_cadastro{
+    -fx-background-color: #AECDF4;
+}
+.texto_cadastro_title{
+    -fx-font-family: "Roboto Thin";
+    -fx-font-style: bold;
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 28px;
+    -fx-fill: #043f8d;
+}
+.texto_cadastro{
+    -fx-font-family: "Roboto Thin";
+    -fx-font-style: bold;
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 13px;
+    -fx-fill: #043f8d;
+}
+.button_cadastro{
+    -fx-background-color: #AECDF4;
+    -fx-font-family: "Roboto Thin";
+    -fx-font-style: bold;
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 15px;
+    -fx-fill: #043f8d;
+    -fx-border-radius: 10px;
+}
