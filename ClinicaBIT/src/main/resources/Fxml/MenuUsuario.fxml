@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Fxml.MenuUsuario"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="510.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.MenuUsuario">
+   <children>
+      <AnchorPane layoutX="2.0" prefHeight="510.0" prefWidth="250.0">
+         <children>
+            <Text layoutX="51.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano de Saúde">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="42.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agendar Consulta">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="30.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Relatório de Consulta">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="20.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Médicos e Especialidades">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="86.0" fitWidth="232.0" layoutX="8.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/frase-clinicaBitPorSegundo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>
