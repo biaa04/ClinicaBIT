@@ -1,60 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="510.0" prefWidth="710.0" stylesheets="@../Styles/agendamento.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.Agendamento">
-   <children>
-      <AnchorPane prefHeight="95.0" prefWidth="710.0" styleClass="navegacao_agendamento">
+
+<BorderPane prefHeight="514.0" prefWidth="460.0" stylesheets="@../Styles/agendamento.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.Agendamento">
+   <center>
+      <AnchorPane prefHeight="510.0" prefWidth="710.0" stylesheets="@../Styles/agendamento.css">
          <children>
-            <Text layoutX="320.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="texto_agendamento_title" text="AGENDAMENTO">
+            <DatePicker layoutX="106.0" layoutY="285.0" prefHeight="30.0" prefWidth="240.0" promptText="Selecione uma data" styleClass="data_agendamento" />
+            <ComboBox layoutX="106.0" layoutY="85.0" prefHeight="30.0" prefWidth="240.0" promptText="Selecionde uma especialidade" />
+            <Text layoutX="108.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_center_agendamento" text="Médico">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="105.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_center_agendamento" text="Especialidade">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <ComboBox layoutX="104.0" layoutY="178.0" prefHeight="30.0" prefWidth="240.0" promptText="Selecione um médico" />
+            <Text layoutX="108.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_center_agendamento" text="Escolha uma data">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="95.0" prefWidth="460.0" styleClass="navegacao_agendamento" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="45.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="texto_agendamento_title" text="AGENDAMENTO">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <ImageView fitHeight="88.0" fitWidth="252.0" layoutX="8.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Images/frase-clinicaBitPorSegundo.png" />
-               </image>
-            </ImageView>
-            <Label layoutX="598.0" layoutY="44.0" styleClass="label_data" text="24/06">
+            <Label layoutX="347.0" layoutY="28.0" styleClass="label_data" text="24/06">
                <font>
                   <Font size="20.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <DatePicker layoutX="423.0" layoutY="178.0" prefHeight="30.0" prefWidth="240.0" promptText="Selecione uma data" styleClass="data_agendamento" />
-      <ComboBox layoutX="43.0" layoutY="176.0" prefHeight="30.0" prefWidth="240.0" promptText="Selecionde uma especialidade" />
-      <Text layoutX="43.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_center_agendamento" text="Médico">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Text>
-      <Text layoutX="43.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_center_agendamento" text="Especialidade">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Text>
-      <ComboBox layoutX="43.0" layoutY="282.0" prefHeight="30.0" prefWidth="240.0" promptText="Selecione um médico" />
-      <AnchorPane layoutY="404.0" prefHeight="95.0" prefWidth="710.0">
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="55.0" prefWidth="460.0" styleClass="bottom-agendamento" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="490.0" layoutY="40.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="180.0" styleClass="button_agendar" text="Agendar" />
-            <FontAwesomeIconView glyphName="HOME" layoutX="48.0" layoutY="63.0" size="30" wrappingWidth="12.0" />
+            <Button layoutX="134.0" layoutY="15.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="180.0" styleClass="button_agendar" text="Agendar" />
          </children>
       </AnchorPane>
-      <Text layoutX="424.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text_center_agendamento" text="Escolha uma data">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Text>
-   </children>
-</AnchorPane>
+   </bottom>
+</BorderPane>

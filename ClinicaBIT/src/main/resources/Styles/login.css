@@ -1,3 +1,39 @@
-.login_container{
-    -fx-background-color: #EEEEEE;
+.anchorPane_principal{
+    -fx-background-color: #388DD8;}
+.anchorPane_cad{
+    -fx-background-color: #AECDF4;
 }
+.anchorPane_login_conteudo{
+    -fx-background-color: #AECDF4;
+    -fx-alignment: center;
+
+}
+.text_login{
+    -fx-font-family: "Roboto Thin";
+    -fx-font-style: bold;
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 28px;
+    -fx-fill: #043f8d;
+}
+.text_loginSub{
+    -fx-font-family: "Sitka Text";
+    -fx-font-style: bold;
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 15px;
+    -fx-fill: #000000;}
+
+.text-field_user{
+    -fx-background-radius: 10px;
+
+}
+
+.button_entrar{
+    -fx-background-color: #AECDF4;
+    -fx-background-radius: 15px;
+    -fx-font-family: "Sitka Text";
+    -fx-font-style: bold;
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 15px;
+    -fx-fill: #000000;}
+
+

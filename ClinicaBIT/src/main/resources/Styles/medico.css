@@ -1,32 +1,25 @@
-.navegacao_agendamento{
+.navegacao-medicos{
     -fx-background-color: #AECDF4;
 }
-.bottom-agendamento{
+.bottom-medicos{
     -fx-background-color: #AECDF4;
 }
-.text_center_agendamento{
+.texto_navegacao-medicos{
+    -fx-font-family: "Roboto Thin";
+    -fx-font-style: bold;
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 28px;
+    -fx-fill: #043f8d;
+}
+.texto-pesquisar{
     -fx-font-family: "Roboto Thin";
     -fx-font-style: bold;
     -fx-font-smoothing-type: gray;
     -fx-font-size: 15px;
     -fx-fill: #043f8d;
 }
-.button_agendar{
+.bottom-pesquisar-medicos{
     -fx-font-family: "Roboto Thin";
     -fx-font-style: bold;
     -fx-text-fill: #043f8d;
-}
-.texto_agendamento_title{
-    -fx-font-family: "Roboto Thin";
-    -fx-font-style: bold;
-    -fx-font-smoothing-type: gray;
-    -fx-font-size: 25px;
-    -fx-fill: #043f8d;
-}
-.label_data{
-    -fx-font-family: "Roboto Thin";
-    -fx-font-style: bold;
-    -fx-font-smoothing-type: gray;
-    -fx-font-size: 28px;
-    -fx-fill: #043f8d;
 }
