@@ -28,3 +28,8 @@
     -fx-fill: #043f8d;
     -fx-border-radius: 10px;
 }
+.texto_cadastro-medico{
+    -fx-background-color: #AECDF4;
+    -fx-font-family: "Roboto Thin";
+    -fx-font-size: 15px;
+}

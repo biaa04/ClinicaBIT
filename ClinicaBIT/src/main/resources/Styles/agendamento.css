@@ -1,0 +1,7 @@
+.navegacao_agendamento{
+    -fx-font-family: "Roboto Thin";
+    -fx-font-style: bold;
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 13px;
+    -fx-fill: #043f8d;
+}
